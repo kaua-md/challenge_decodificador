@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logoAlura" src="/assets/logo-alura.png.png" alt="logo da Alura">
+        </header>
+            <textarea class="texto_digite" type="text" placeholder="Digite seu texto"></textarea>
+            <section class="btn_area">
+                <p class="aviso"> 
+                    <img class="exclamacao_icon" src="assets/Frame 1.png" alt="Apenas letras minúsculas e sem acento."> 
+                </p>
+                <button class="botao" id="btn_criptografar" type="button" onclick="criptografarTexto()">Criptografar</button>
+                <button class="botao" id="btn_descriptografar" type="button" onclick="descriptografarTexto()">Descriptografar</button>
+            </section>
+            <section class="decodificacao">
+                <img class="imagem_boneco" src="/assets/boneco.png.png" alt="imagem do personagem da alura">
+                <p class="notificacao">Nenhuma mensagem encontrada</p>
+                <p class="texto_insira" name="texto">Insira um texto que você deseja criptografar ou descriptografar</p>
+                <button class="btn_oculto" id="btn_copiar" type="button">Copiar</button>
+            </section>
+            
+    </main>
+        <footer class="rodape">
+            <p class="texto_rodape">Desenvolvido por Kauã Machado - Para fins estudantis</p>
+        </footer>
+        <script src="/app.js"></script>
+</body>
+</html>
